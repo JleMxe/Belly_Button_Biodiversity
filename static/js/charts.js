@@ -1,4 +1,4 @@
-dataPath = "data/samples.json"
+dataPath = "../data/samples.json"
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
