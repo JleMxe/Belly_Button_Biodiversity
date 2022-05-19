@@ -1,5 +1,6 @@
 var loc = window.location.pathname;
 var dir = loc.substring(0, loc.lastIndexOf('/'));
+console.log(dir);
 
 
 dataPath = "/static/data/samples.json"
