@@ -2,7 +2,7 @@ var loc = window.location.pathname;
 var dir = loc.substring(0, loc.lastIndexOf('/'));
 
 
-dataPath = "Belly_Button_Biodiversity/static/data/samples.json"
+dataPath = "/Belly_Button_Biodiversity/static/data/samples.json"
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
