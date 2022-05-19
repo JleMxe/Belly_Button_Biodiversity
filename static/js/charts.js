@@ -3,7 +3,8 @@ var dir = loc.substring(0, loc.lastIndexOf('/'));
 console.log(dir);
 
 
-dataPath = "/static/data/samples.json";
+//dataPath = "/static/data/samples.json";
+dataPath = "https://jlemxe.github.io/Belly_Button_Biodiversity/static/data/samples.json";
 function init() {
   // Grab a reference to the dropdown select element
   var selector = d3.select("#selDataset");
